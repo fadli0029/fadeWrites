@@ -4,9 +4,11 @@ date = 2024-06-24T12:18:32-07:00
 draft = false
 tags = ['hugo', 'markdown']
 [editPost]
-  URL = "https://github.com/fadli0029/FadeWrites/edit/main/content/posts/my-first-post.md"
-  Text = "Suggest Changes" # edit text
-  appendFilePath = false # to append file path to Edit link
+    URL = "https://github.com/fadli0029/FadeWrites/edit/main/content/posts/my-first-post.md"
+    Text = "Suggest Changes" # edit text
+    appendFilePath = false # to append file path to Edit link
+[params]
+    comments = true
 +++
 # Introduction
 
