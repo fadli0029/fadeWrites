@@ -59,7 +59,7 @@ params:
   homeInfoParams:
     Title: "Muhammad Arsani"
     Content: "This is where I write about concepts and theories in Robotics, ML, Controls, and other misc. topics. For my projects and experience, visit my portfolio by clicking on the 'about' page on the top-right corner!"
-    imageUrl: "FadeWrites/static/me_white.png"
+    imageUrl: "static/me_white.png"
     imageWidth: 200
     imageHeight: 230
     imageTitle: my image
