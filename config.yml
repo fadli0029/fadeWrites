@@ -1,0 +1,149 @@
+baseURL: "https://examplesite.com/"
+title: FadeWrites
+paginate: 5
+theme: PaperMod
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: FadeWrites
+  description: "A blog about concepts and theories in Robotics, ML, Controls, and miscellaneous topics."
+  keywords: [Blog, Robotics, Machine Learning, Controls, AI, Python, C++, Math, Physics]
+  author: Me
+  # author: ["Me", "You"] # multiple authors
+  # images: ["<link or path of image for opengraph, twitter-cards>"]
+  DateFormat: "January 2, 2006"
+  defaultTheme: dark # auto # dark, light
+  disableThemeToggle: true
+
+  math: true
+
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: false
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
+  # assets:
+    # disableHLJS: true # to disable highlight.js
+    # disableFingerprinting: true
+    # favicon: "<link / abs url>"
+    # favicon16x16: "<link / abs url>"
+    # favicon32x32: "<link / abs url>"
+    # apple_touch_icon: "<link / abs url>"
+    # safari_pinned_tab: "<link / abs url>"
+
+  label:
+    text: "FadeWrites"
+    icon: /apple-touch-icon.png
+    iconHeight: 35
+
+  homeInfoParams:
+    Title: "Muhammad Arsani"
+    Content: "This is where I write about concepts and theories in Robotics, ML, Controls, and other misc. topics. For my projects and experience, visit my portfolio by clicking on the 'about' page on the top-right corner!"
+    imageUrl: "/me_white.png"
+    imageWidth: 200
+    imageHeight: 230
+    imageTitle: my image
+    buttons:
+      - name: Posts
+        url: posts
+      - name: Tags
+        url: tags
+
+  socialIcons:
+    - name: portfolio
+      url: "https://fadli0029.github.io/fadeStash/"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/mfarsani/"
+    - name: github
+      url: "https://github.com/fadli0029"
+
+  # analytics:
+  #   google:
+  #     SiteVerificationTag: "XYZabc"
+  #   bing:
+  #     SiteVerificationTag: "XYZabc"
+  #   yandex:
+  #     SiteVerificationTag: "XYZabc"
+
+  cover:
+    hidden: true # hide everywhere but not in structured data
+    hiddenInList: true # hide on list pages and home
+    hiddenInSingle: true # hide on single page
+
+  editPost:
+    URL: "https://github.com/<path_to_repo>/content"
+    Text: "Suggest Changes" # edit text
+    appendFilePath: true # to append file path to Edit link
+
+  # for search
+  # https://fusejs.io/api/options.html
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
+    keys: ["title", "permalink", "summary", "content"]
+menu:
+  main:
+    # - identifier: categories
+    #   name: categories
+    #   url: /categories/
+    #   weight: 10
+    - identifier: tags
+      name: tags
+      url: /tags/
+      weight: 20
+    - identifier: about
+      name: about
+      url: https://fadli0029.github.io/fadeStash/
+      weight: 50
+# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+pygmentsUseClasses: true
+markup:
+  goldmark:
+    extensions:
+      strikethrough: false
+      extras:
+        delete:
+          enable: true
+        subscript:
+          enable: true
+      passthrough:
+        delimiters:
+          block:
+          - - $$
+            - $$
+          inline:
+          - - $
+            - $
+        enable: true
+  highlight:
+    noClasses: false
+    # anchorLineNos: true
+    # codeFences: true
+    # guessSyntax: true
+    # lineNos: true
+    # style: monokai

@@ -1,0 +1,16 @@
+/* custom.css */
+.light-mode-img {
+  display: none;
+}
+
+.dark-mode-img {
+  display: none;
+}
+
+body.light .light-mode-img {
+  display: block;
+}
+
+body.dark .dark-mode-img {
+  display: block;
+}
