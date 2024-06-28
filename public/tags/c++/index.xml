@@ -14,7 +14,7 @@
       <pubDate>Mon, 24 Jun 2024 12:18:32 -0700</pubDate>
       <guid>http://localhost:1313/posts/cpp_tips/</guid>
       <description>In this post, I will share some tips and tricks that I have learned while working with C++. Most of these tips are on optimization and performance improvement. I hope you find them useful. This post is useful to go through every once in a while, especially when you&amp;rsquo;re rusty with C++.
-Dealing with std::vector 1. Always use reserve when you know the size of the vector // Reserve space for 1000 elements.</description>
+Dealing with std::vector Always use reserve when you know the size of the vector // Reserve space for 1000 elements.</description>
     </item>
   </channel>
 </rss>

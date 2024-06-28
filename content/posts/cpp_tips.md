@@ -282,6 +282,10 @@ if (is_even(*first)) {
 // ...
 ```
 
+## Should I preincrement (`++it`) or postincrement (`it++`) iterators?
 
+Preincrement doesn’t create a temporary value to return each time, so it’s more efficient and is the preferred approach. Postincrement (`it++`) has to create a temporary variable because it returns the value of `it` before the increment. However, it can’t increment the value after it has returned, so it has to make a copy of the current value, increment the current value, then return the temporary value. Creating these temporary variables adds up after a while, __so if you don’t require postincrement behavior, use preincrement__ (C++ Cookbook, Stephens et. al.).
 
-
+<!-- DRAFT: -->
+<!-- ## `std::bind`? What's that? -->
+<!-- Read the last prompt and the corresponding response, it's the best and most concise explanation of it: https://chatgpt.com/share/db8c2130-b978-4836-a7d8-d600bb9855af -->
