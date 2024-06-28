@@ -1,0 +1,9 @@
+<!-- layouts/shortcodes/admonition.html -->
+<div class="admonition {{ .Get 0 }}">
+  <div class="admonition-header">
+    <strong>{{ .Get 1 }}</strong>
+  </div>
+  <div class="admonition-body">
+    {{ .Inner }}
+  </div>
+</div>

@@ -1,7 +1,7 @@
 +++
 title = 'My First Post'
 date = 2024-06-24T12:18:32-07:00
-draft = false
+draft = true
 tags = ['hugo', 'markdown']
 [editPost]
     URL = "https://github.com/fadli0029/FadeWrites/edit/main/content/posts/my-first-post.md"
