@@ -1,10 +1,10 @@
 +++
-title = 'Leetcode Problems"
+title = "Leetcode Problems"
 date = 2024-06-24T12:18:32-07:00
 draft = true
 tags = ['C++']
 [editPost]
-    URL = "https://github.com/fadli0029/FadeWrites/edit/main/content/posts/leetcode.md"
+    URL = "https://github.com/fadli0029/fadeWrites/edit/main/content/posts/leetcode.md"
     Text = "Suggest Changes"
     appendFilePath = false
 [params]

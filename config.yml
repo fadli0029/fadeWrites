@@ -1,5 +1,5 @@
 baseURL: "https://examplesite.com/"
-title: FadeWrites
+title: fadeWrites
 paginate: 5
 theme: PaperMod
 
@@ -14,7 +14,7 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: FadeWrites
+  title: fadeWrites
   description: "A blog about concepts and theories in Robotics, ML, Controls, and miscellaneous topics."
   keywords: [Blog, Robotics, Machine Learning, Controls, AI, Python, C++, Math, Physics]
   author: Me
@@ -52,7 +52,7 @@ params:
     # safari_pinned_tab: "<link / abs url>"
 
   label:
-    text: "FadeWrites"
+    text: "fadeWrites"
     icon: /apple-touch-icon.png
     iconHeight: 35
 

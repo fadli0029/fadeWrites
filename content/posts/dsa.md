@@ -4,7 +4,7 @@ date = 2024-06-24T12:18:32-07:00
 draft = true
 tags = ['C++']
 [editPost]
-    URL = "https://github.com/fadli0029/FadeWrites/edit/main/content/posts/cpp_tips.md"
+    URL = "https://github.com/fadli0029/fadeWrites/edit/main/content/posts/cpp_tips.md"
     Text = "Suggest Changes"
     appendFilePath = false
 [params]
