@@ -1,21 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Posts on fadeWrites</title>
-    <link>http://localhost:1313/posts/</link>
-    <description>Recent content in Posts on fadeWrites</description>
+    <title>Dynamic Programming on fadeWrites</title>
+    <link>http://localhost:1313/tags/dynamic-programming/</link>
+    <description>Recent content in Dynamic Programming on fadeWrites</description>
     <generator>Hugo -- 0.127.0</generator>
     <language>en</language>
     <lastBuildDate>Mon, 24 Jun 2024 12:18:32 -0700</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>C&#43;&#43; Tips and Tricks</title>
-      <link>http://localhost:1313/posts/cpp_tips/</link>
-      <pubDate>Mon, 24 Jun 2024 12:18:32 -0700</pubDate>
-      <guid>http://localhost:1313/posts/cpp_tips/</guid>
-      <description>In this post, I will share some tips and tricks that I have learned while working with C++. Most of these tips are on optimization and performance improvement. I hope you find them useful. This post is useful to go through every once in a while, especially when you&amp;rsquo;re rusty with C++.
-Dealing with std::vector Always use reserve when you know the size of the vector // Reserve space for 1000 elements.</description>
-    </item>
+    <atom:link href="http://localhost:1313/tags/dynamic-programming/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>LC70: Climbing Stairs (EASY)</title>
       <link>http://localhost:1313/posts/lc70/</link>

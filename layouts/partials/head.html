@@ -36,7 +36,10 @@
 <meta name="naver-site-verification" content="{{ site.Params.analytics.naver.SiteVerificationTag }}">
 {{- end }}
 
+
 {{- /* Styles */}}
+<script src="https://kit.fontawesome.com/768c1f9b93.js" crossorigin="anonymous"></script>
+
 
 {{- /* includes */}}
 {{- $includes := slice }}
@@ -146,12 +149,13 @@
     {{- end }}
 </noscript>
 
-<link rel="stylesheet" href="{{ "assets/css/admonitions.css" | relURL }}">
+
 
 {{- partial "extend_head.html" . -}}
 {{ if .Param "math" }}
   {{ partial "math.html" . }}
 {{ end }}
+
 
 
 {{- /* Misc */}}

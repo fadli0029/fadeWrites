@@ -13,6 +13,12 @@ tags = ['C++']
     TocOpen = true
 +++
 
+{{ range (where .Site.Pages "Section" "programming") }}
+   {{ range .Pages }}
+      {{ .Title }}
+   {{ end }}
+{{ end }}
+
 In this post, we solve leetcode problems in C++. The main goals are 3
 1. To highlight the thought process to arrive at the solution.
 2. To emphasize how we use techniques learned in our DSA post to solve these problems.
