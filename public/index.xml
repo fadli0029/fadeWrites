@@ -6,19 +6,8 @@
     <description>Recent content on fadeWrites</description>
     <generator>Hugo -- 0.127.0</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 09 Jul 2024 14:27:17 -0700</lastBuildDate>
+    <lastBuildDate>Mon, 24 Jun 2024 12:18:32 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>LC70: Climbing Stairs (EASY)</title>
-      <link>http://localhost:1313/posts/lc70/</link>
-      <pubDate>Tue, 09 Jul 2024 14:27:17 -0700</pubDate>
-      <guid>http://localhost:1313/posts/lc70/</guid>
-      <description>⚠️ Warning It is assumed that the reader has read the blog post on Dynamic Programming. If you haven&amp;rsquo;t, please read it first before continuing. Problem statement You are climbing a staircase. It takes n steps to reach the top.
-Each time you can either climb 1 or 2 steps. In how many distinct ways can you climb to the top?
-Example 1:
-Input: n = 2
-Output: 2</description>
-    </item>
     <item>
       <title>C&#43;&#43; Tips and Tricks</title>
       <link>http://localhost:1313/posts/cpp_tips/</link>
